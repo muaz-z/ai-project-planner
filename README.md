@@ -2,6 +2,10 @@
 
 An intelligent project planning application that transforms high-level ideas into actionable execution plans using AI. Built with React Router 7, TypeScript, and OpenAI.
 
+## 🚀 Live Demo
+
+**Try it now:** [https://ai-project-planner-eta.vercel.app/](https://ai-project-planner-eta.vercel.app/)
+
 ## The Problem
 
 Starting a complex project is overwhelming. You have a vague goal like "build a mobile app" but don't know where to start, what to learn first, or how to break it down into manageable steps.
