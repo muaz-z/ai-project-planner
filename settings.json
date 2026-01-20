@@ -1,0 +1,26 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Explicitly set for all React/TS file types
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    // This is the TSX file type
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Enable Prettier for these file extensions
+  "prettier.documentSelectors": ["**/*.tsx", "**/*.ts", "**/*.jsx", "**/*.js"],
+
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  }
+}
